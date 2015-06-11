@@ -7,27 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAA33BB61B025564008CB920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA33BB51B025564008CB920 /* main.cpp */; };
-		CAA33BB81B025564008CB920 /* ShaderTesting.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAA33BB71B025564008CB920 /* ShaderTesting.1 */; };
+		CA3AAAD51B1E0A6E00AEA215 /* fragmentShaderReactionDiffusion.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CA3AAAD41B1E0A5700AEA215 /* fragmentShaderReactionDiffusion.glsl */; };
+		CAA33BBF1B025589008CB920 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA33BBE1B025589008CB920 /* OpenGL.framework */; };
+		CAA33BC11B0255C6008CB920 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA33BC01B0255C6008CB920 /* SDL2.framework */; };
+		CAA33BC41B0255EF008CB920 /* MainGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA33BC21B0255EF008CB920 /* MainGame.cpp */; };
+		CAA33BC71B025777008CB920 /* GLManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA33BC51B025777008CB920 /* GLManager.cpp */; };
+		CAA33BCB1B025A5A008CB920 /* vertexShader.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CAA33BC81B02581E008CB920 /* vertexShader.glsl */; };
+		CAA33BCC1B025A5A008CB920 /* fragmentShader.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CAA33BC91B025827008CB920 /* fragmentShader.glsl */; };
+		CAA33BCF1B062EEC008CB920 /* vertexShader2.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CAA33BCD1B027FAB008CB920 /* vertexShader2.glsl */; };
+		CAA33BD01B062EEC008CB920 /* fragmentShader2.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CAA33BCE1B027FB4008CB920 /* fragmentShader2.glsl */; };
+		CAA33BD31B066DAE008CB920 /* vertexShaderDraw.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CAA33BD11B066D8B008CB920 /* vertexShaderDraw.glsl */; };
+		CAA33BD41B066DAE008CB920 /* fragmentShaderDraw.glsl in Copy Files */ = {isa = PBXBuildFile; fileRef = CAA33BD21B066D96008CB920 /* fragmentShaderDraw.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CAA33BB01B025564008CB920 /* CopyFiles */ = {
+		CAA33BB01B025564008CB920 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
-				CAA33BB81B025564008CB920 /* ShaderTesting.1 in CopyFiles */,
+				CA3AAAD51B1E0A6E00AEA215 /* fragmentShaderReactionDiffusion.glsl in Copy Files */,
+				CAA33BD31B066DAE008CB920 /* vertexShaderDraw.glsl in Copy Files */,
+				CAA33BD41B066DAE008CB920 /* fragmentShaderDraw.glsl in Copy Files */,
+				CAA33BCF1B062EEC008CB920 /* vertexShader2.glsl in Copy Files */,
+				CAA33BD01B062EEC008CB920 /* fragmentShader2.glsl in Copy Files */,
+				CAA33BCB1B025A5A008CB920 /* vertexShader.glsl in Copy Files */,
+				CAA33BCC1B025A5A008CB920 /* fragmentShader.glsl in Copy Files */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA3AAAD41B1E0A5700AEA215 /* fragmentShaderReactionDiffusion.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentShaderReactionDiffusion.glsl; sourceTree = "<group>"; };
 		CAA33BB21B025564008CB920 /* ShaderTesting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShaderTesting; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAA33BB51B025564008CB920 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CAA33BB71B025564008CB920 /* ShaderTesting.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ShaderTesting.1; sourceTree = "<group>"; };
+		CAA33BBE1B025589008CB920 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CAA33BC01B0255C6008CB920 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../Desktop/SDL2.framework; sourceTree = "<group>"; };
+		CAA33BC21B0255EF008CB920 /* MainGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainGame.cpp; sourceTree = "<group>"; };
+		CAA33BC31B0255EF008CB920 /* MainGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGame.h; sourceTree = "<group>"; };
+		CAA33BC51B025777008CB920 /* GLManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLManager.cpp; sourceTree = "<group>"; };
+		CAA33BC61B025777008CB920 /* GLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLManager.h; sourceTree = "<group>"; };
+		CAA33BC81B02581E008CB920 /* vertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertexShader.glsl; sourceTree = "<group>"; };
+		CAA33BC91B025827008CB920 /* fragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentShader.glsl; sourceTree = "<group>"; };
+		CAA33BCA1B0258B5008CB920 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		CAA33BCD1B027FAB008CB920 /* vertexShader2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertexShader2.glsl; sourceTree = "<group>"; };
+		CAA33BCE1B027FB4008CB920 /* fragmentShader2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentShader2.glsl; sourceTree = "<group>"; };
+		CAA33BD11B066D8B008CB920 /* vertexShaderDraw.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertexShaderDraw.glsl; sourceTree = "<group>"; };
+		CAA33BD21B066D96008CB920 /* fragmentShaderDraw.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentShaderDraw.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA33BBF1B025589008CB920 /* OpenGL.framework in Frameworks */,
+				CAA33BC11B0255C6008CB920 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,8 @@
 		CAA33BA91B025564008CB920 = {
 			isa = PBXGroup;
 			children = (
+				CAA33BBE1B025589008CB920 /* OpenGL.framework */,
+				CAA33BC01B0255C6008CB920 /* SDL2.framework */,
 				CAA33BB41B025564008CB920 /* ShaderTesting */,
 				CAA33BB31B025564008CB920 /* Products */,
 			);
@@ -60,8 +93,19 @@
 		CAA33BB41B025564008CB920 /* ShaderTesting */ = {
 			isa = PBXGroup;
 			children = (
-				CAA33BB51B025564008CB920 /* main.cpp */,
+				CAA33BCA1B0258B5008CB920 /* glm */,
 				CAA33BB71B025564008CB920 /* ShaderTesting.1 */,
+				CAA33BC21B0255EF008CB920 /* MainGame.cpp */,
+				CAA33BC31B0255EF008CB920 /* MainGame.h */,
+				CAA33BC51B025777008CB920 /* GLManager.cpp */,
+				CAA33BC61B025777008CB920 /* GLManager.h */,
+				CAA33BC91B025827008CB920 /* fragmentShader.glsl */,
+				CAA33BCD1B027FAB008CB920 /* vertexShader2.glsl */,
+				CAA33BC81B02581E008CB920 /* vertexShader.glsl */,
+				CAA33BCE1B027FB4008CB920 /* fragmentShader2.glsl */,
+				CAA33BD11B066D8B008CB920 /* vertexShaderDraw.glsl */,
+				CAA33BD21B066D96008CB920 /* fragmentShaderDraw.glsl */,
+				CA3AAAD41B1E0A5700AEA215 /* fragmentShaderReactionDiffusion.glsl */,
 			);
 			path = ShaderTesting;
 			sourceTree = "<group>";
@@ -74,8 +118,8 @@
 			buildConfigurationList = CAA33BBB1B025564008CB920 /* Build configuration list for PBXNativeTarget "ShaderTesting" */;
 			buildPhases = (
 				CAA33BAE1B025564008CB920 /* Sources */,
+				CAA33BB01B025564008CB920 /* Copy Files */,
 				CAA33BAF1B025564008CB920 /* Frameworks */,
-				CAA33BB01B025564008CB920 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -117,7 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA33BB61B025564008CB920 /* main.cpp in Sources */,
+				CAA33BC41B0255EF008CB920 /* MainGame.cpp in Sources */,
+				CAA33BC71B025777008CB920 /* GLManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -183,13 +228,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -197,6 +243,10 @@
 		CAA33BBC1B025564008CB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/christian.cosgrove/Desktop,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -204,6 +254,10 @@
 		CAA33BBD1B025564008CB920 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/christian.cosgrove/Desktop,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -227,6 +281,7 @@
 				CAA33BBD1B025564008CB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
